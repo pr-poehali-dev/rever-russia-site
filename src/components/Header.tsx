@@ -39,6 +39,12 @@ const Header = () => {
               Новости
             </a>
             <a
+              href="#forum"
+              className="text-white hover:text-rever-red transition-colors duration-300"
+            >
+              Форум
+            </a>
+            <a
               href="#download"
               className="text-white hover:text-rever-red transition-colors duration-300"
             >
@@ -77,6 +83,12 @@ const Header = () => {
                 className="text-white hover:text-rever-red transition-colors"
               >
                 Новости
+              </a>
+              <a
+                href="#forum"
+                className="text-white hover:text-rever-red transition-colors"
+              >
+                Форум
               </a>
               <a
                 href="#download"
